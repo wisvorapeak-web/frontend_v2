@@ -27,9 +27,8 @@ export function FileUploadButton({ label, onUploadSuccess, accept, className }: 
       
       const token = Cookies.get('admin_token');
 
-      // We use the full URL to the backend or a relative proxy path if configured
-      // Assuming backend is on port 5000 based on standard setup
-      const res = await fetch('http://localhost:5000/api/upload', {
+      const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+      const res = await fetch(`${API_BASE_URL}/upload`, {
         method: 'POST',
         headers: {
           ...(token ? { 'Authorization': `Bearer ${token}` } : {})
