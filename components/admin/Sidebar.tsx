@@ -7,7 +7,7 @@ import {
   LayoutDashboard, FileText, Users, CreditCard, 
   AlertCircle, DollarSign, BookOpen, Inbox, 
   Mail, Award, LayoutTemplate, MessageSquare, 
-  MapPin, Calendar, Settings, ShieldCheck, UserCog, LogOut
+  MapPin, Calendar, Settings, ShieldCheck, UserCog, LogOut, Activity
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -29,6 +29,7 @@ const navItems = [
   { name: 'Settings', href: '/admin/settings', icon: Settings },
   { name: 'Organizers', href: '/admin/organizers', icon: UserCog },
   { name: 'Users', href: '/admin/users', icon: UserCog },
+  { name: 'System Health', href: '/admin/system-health', icon: Activity },
 ];
 
 export function Sidebar() {
