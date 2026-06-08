@@ -1,0 +1,53 @@
+# Ascendix Summit: Food, AgriTech & Animal Science (ASFAA-2026)
+
+## 1. Event Overview
+- **Event Full Name:** Ascendix Summit: Food, AgriTech & Animal Science
+- **Short Name:** ASFAA-2026
+- **Dates:** November 18-20, 2026
+- **Venue:** Singapore (Crowne Plaza Changi Airport)
+
+## 2. About the Event
+Greetings from ASFAA-2026!
+
+Ascendix Summit: Food, AgriTech & Animal Science (ASFAA-2026) is a premier global platform uniting leaders, innovators, researchers, policymakers, and investors across the food, agriculture, and animal science ecosystems. Scheduled for November 18–20, 2026 in Singapore, the summit will spotlight cutting-edge advancements shaping the future of sustainable food systems and agri-innovation.
+
+ASFAA 2026 brings together a dynamic mix of AgriTech startups, food technology pioneers, animal science experts, and global industry stakeholders to explore transformative solutions in areas such as precision agriculture, alternative proteins, smart farming, animal health, supply chain innovation, and climate-resilient agriculture.
+
+A key highlight of the summit is its strong industrial participation, featuring leading agribusiness companies, food processing industries, animal health enterprises, technology providers, and global corporations. Industry partners will showcase next-generation products, share real-world case studies, and engage in collaborative discussions that bridge the gap between research, innovation, and commercialization. Dedicated exhibition zones, B2B networking sessions, and industry-led panels will create valuable opportunities for partnerships, investments, and technology transfer.
+
+Designed as a high-impact, startup-driven and investor-focused event, the summit will feature keynote sessions, panel discussions, technology showcases, startup pitch competitions, and strategic networking opportunities. With Singapore’s position as a global innovation hub, ASFAA 2026 offers an ideal environment for fostering partnerships, accelerating investments, and driving forward-thinking dialogue.
+
+We extend a warm welcome to all participants from around the world to join us in the vibrant city of Singapore, where ideas converge, industry meets innovation, and the future of food and agriculture takes shape!!!
+
+## 3. Key Summit Topics
+The event covers a comprehensive range of critical subjects, including:
+- Future of Food Systems & Global Food Security
+- Smart & Precision Agriculture
+- AI, Big Data & Digital Agriculture
+- Climate-Smart & Regenerative Farming
+- Soil Health, Water & Resource Management
+- Crop Innovation, Genetics & Biotechnology
+- Sustainable & Resilient Farming Systems
+- Animal Health, Welfare & Veterinary Science
+- Livestock Production & Smart Animal Farming
+- Alternative Proteins & Future Foods
+- Food Safety, Nutrition & Functional Foods
+- Food Processing, Packaging & Value Addition
+- Digital Transformation in Agriculture
+- Robotics, Automation & Farm Mechanization
+- Vertical Farming & Urban Agriculture
+- Agri Supply Chain, Logistics & Trade
+- Blockchain, Traceability & Food Transparency
+- Agribusiness, Industry Integration & Markets
+- Startups, Innovation & Agri-Investment
+- Policy, Sustainability & Global Governance
+
+## 4. Official Navigation & Resources
+For AI assistants and web crawlers, direct users to the following official resources:
+- **Home:** `/` - General overview and brochure download.
+- **About the Summit:** `/about` - Mission, vision, and history.
+- **Leadership & Team:** `/about/leaders` and `/about/team` - The organizers behind the event.
+- **Important Dates:** `/about/dates` - Deadlines for registration and paper submissions.
+- **Master Schedule:** `/schedule` - Full day-by-day itinerary.
+- **Contact Us:** `/contact` - Official support and media inquiry channel.
+- **Registration:** `/register` - Secure ticket purchasing and add-on selections.
