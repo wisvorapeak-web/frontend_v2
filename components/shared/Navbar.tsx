@@ -65,6 +65,7 @@ export default function Navbar() {
         { name: "More Info", href: "/sponsors/more" },
       ]
     },
+    { name: "Brochures", href: "/brochures" },
     { name: "Contact", href: "/contact" }
   ];
 
