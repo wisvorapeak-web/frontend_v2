@@ -18,6 +18,7 @@ const navItems = [
   { name: 'Registrations', href: '/admin/registrations', icon: FileText },
   { name: 'Failed Payments', href: '/admin/failed-payments', icon: AlertCircle },
   { name: 'Pricing', href: '/admin/pricing', icon: DollarSign },
+  { name: 'Payment Links', href: '/admin/payment-links', icon: DollarSign },
   { name: 'Brochures', href: '/admin/brochures', icon: BookOpen },
   { name: 'Inbox', href: '/admin/inbox', icon: Inbox },
   { name: 'Send Emails', href: '/admin/send-emails', icon: Mail },
@@ -27,7 +28,8 @@ const navItems = [
   { name: 'Venue Gallery', href: '/admin/venue-gallery', icon: MapPin },
   { name: 'Schedule', href: '/admin/schedule', icon: Calendar },
   { name: 'Settings', href: '/admin/settings', icon: Settings },
-  { name: 'Organizers', href: '/admin/organizers', icon: UserCog },
+  { name: 'Organizers', href: '/admin/scientific-committee', icon: UserCog },
+  { name: 'Chairs', href: '/admin/chairs', icon: UserCog },
   { name: 'Users', href: '/admin/users', icon: UserCog },
   { name: 'System Health', href: '/admin/system-health', icon: Activity },
 ];

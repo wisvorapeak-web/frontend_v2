@@ -10,7 +10,7 @@ export default function Page() {
   const [data, setData] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
-  const [formData, setFormData] = useState<any>({});
+  const [formData, setFormData] = useState<any>({ category: 'Scientific Committee' });
   const [editingId, setEditingId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function Page() {
   const loadData = async () => {
     try {
       setLoading(true);
-      const res = await fetchApi('/organizers');
+      const res = await fetchApi('/organizers?category=Scientific Committee');
       setData(res);
     } catch (error) {
       console.error("Error loading data", error);
@@ -32,19 +32,21 @@ export default function Page() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
+      // Ensure category is always set
+      const payload = { ...formData, category: 'Scientific Committee' };
       if (editingId) {
         await fetchApi(`/organizers/${editingId}`, {
           method: 'PUT',
-          body: JSON.stringify(formData)
+          body: JSON.stringify(payload)
         });
       } else {
         await fetchApi('/organizers', {
           method: 'POST',
-          body: JSON.stringify(formData)
+          body: JSON.stringify(payload)
         });
       }
       setShowModal(false);
-      setFormData({});
+      setFormData({ category: 'Scientific Committee' });
       setEditingId(null);
       loadData();
     } catch (error) {
@@ -54,7 +56,7 @@ export default function Page() {
   };
 
   const handleEdit = (item: any) => {
-    setFormData(item);
+    setFormData({ ...item, category: 'Scientific Committee' });
     setEditingId(item._id);
     setShowModal(true);
   };
@@ -69,16 +71,14 @@ export default function Page() {
     }
   };
 
-
-
   return (
     <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
       <PageHeader 
-        title="Organizers" 
-        description="Manage organizers"
-        breadcrumbs={[{ label: 'Admin', href: '/admin' }, { label: 'Organizers', href: '/admin/organizers' }]}
+        title="Scientific Committee" 
+        description="Manage scientific committee members"
+        breadcrumbs={[{ label: 'Admin', href: '/admin' }, { label: 'Scientific Committee', href: '/admin/scientific-committee' }]}
         action={
-          <button onClick={() => { setFormData({}); setEditingId(null); setShowModal(true); }} className="flex items-center px-4 py-2 rounded-md bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-medium transition-colors shadow-lg">
+          <button onClick={() => { setFormData({ category: 'Scientific Committee' }); setEditingId(null); setShowModal(true); }} className="flex items-center px-4 py-2 rounded-md bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-medium transition-colors shadow-lg">
             <Plus className="w-4 h-4 mr-2" /> Add New
           </button>
         }
@@ -103,7 +103,6 @@ export default function Page() {
                 <h3 className="text-lg font-semibold text-foreground truncate">{item.name}</h3>
                 <p className="text-sm text-muted-foreground truncate mb-1">{item.role}</p>
                 <p className="text-xs font-medium text-slate-300 truncate mb-1">{item.affiliation}{item.location ? `, ${item.location}` : ''}</p>
-                <p className="text-xs text-primary mb-4">{item.category}</p>
                 <div className="mt-auto flex justify-end gap-2 pt-4 border-t border-border">
                   <button onClick={() => handleEdit(item)} className="text-sm text-secondary hover:text-secondary/80 font-medium">Edit</button>
                   <button onClick={() => handleDelete(item._id)} className="text-sm text-red-400 hover:text-red-300 font-medium">Delete</button>
@@ -122,7 +121,7 @@ export default function Page() {
       {showModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
           <div className="bg-card border border-border rounded-xl p-6 w-full max-w-md shadow-2xl">
-            <h3 className="text-xl font-semibold text-foreground mb-4">{editingId ? 'Edit' : 'Add'} Organizers</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">{editingId ? 'Edit' : 'Add'} Scientific Committee</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               
               <div className="grid grid-cols-2 gap-4">
@@ -163,17 +162,7 @@ export default function Page() {
                     className="w-full rounded-md border border-border bg-background px-3 py-2 text-foreground placeholder:text-muted-foreground focus:border-primary/50 focus:outline-none"
                   />
                 </div>
-                <div className="col-span-2">
-                  <label className="block text-sm font-medium text-slate-300 mb-1">Category</label>
-                  <select
-                    value={formData['category'] || 'Scientific Committee'}
-                    onChange={(e) => setFormData({...formData, category: e.target.value})}
-                    className="w-full rounded-md border border-border bg-background px-3 py-2 text-foreground placeholder:text-muted-foreground focus:border-primary/50 focus:outline-none"
-                  >
-                    <option value="Scientific Committee">Scientific Committee</option>
-                    <option value="Chairs">Chairs</option>
-                  </select>
-                </div>
+                
                 <div className="col-span-2">
                   <label className="block text-sm font-medium text-slate-300 mb-1">Image URL</label>
                   <div className="flex gap-2 w-full">

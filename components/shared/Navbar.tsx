@@ -38,6 +38,7 @@ export default function Navbar() {
       href: "#",
       dropdown: [
         { name: "About", href: "/about" },
+        { name: "Chairs", href: "/about/chairs" },  
         { name: "Our Team", href: "/about/team" },
         { name: "Our Leaders", href: "/about/leaders" },
         { name: "Dates", href: "/about/dates" },
