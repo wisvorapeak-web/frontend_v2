@@ -29,7 +29,7 @@ export default function VenueLocation() {
   if (loading) return null; // Only hide during the initial fetch
 
   // Default fallback map URL if not provided in DB
-  const mapUrl = venue.map_url || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6967778460807!2d103.9879672!3d1.3585608999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3c936a9124bf%3A0x74a0170f1cc50445!2sCrowne%20Plaza%20Changi%20Airport%20by%20IHG!5e0!3m2!1sen!2sin!4v1779295382266!5m2!1sen!2sin";
+  const mapUrl = venue.map_url || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77979.80009413049!2d4.9039604!3d52.354665649999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam%2C%20Netherlands!5e0!3m2!1sen!2sin!4v1783156908555!5m2!1sen!2sin";
 
   return (
     <section className="py-12 bg-background relative border-t border-border">
@@ -40,7 +40,7 @@ export default function VenueLocation() {
             Venue & <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Travel</span>
           </h3>
           <p className="text-muted-foreground text-lg font-light">
-            Join us in the vibrant city of {venue.city || 'Singapore'}, a premier global innovation hub where industry meets innovation.
+            Join us in the vibrant city of {venue.city || 'Amsterdam'}, a premier global innovation hub where industry meets innovation.
           </p>
         </div>
 
@@ -59,9 +59,9 @@ export default function VenueLocation() {
              <div className="absolute bottom-8 left-8 right-8 z-20 bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl pointer-events-none">
                 <div className="flex items-center gap-3 mb-2">
                   <MapPin className="text-ascendix" size={24} />
-                  <h4 className="text-xl font-heading font-bold text-white">{venue.city || 'Singapore'}</h4>
+                  <h4 className="text-xl font-heading font-bold text-white">{venue.city || 'Amsterdam'}</h4>
                 </div>
-                <p className="text-white/70 font-light text-sm">{venue.name || 'Crowne Plaza Changi Airport by IHG'}</p>
+                <p className="text-white/70 font-light text-sm">{venue.name || 'Amsterdam, Netherlands'}</p>
              </div>
           </div>
 
@@ -77,7 +77,7 @@ export default function VenueLocation() {
                 <div>
                   <h5 className="font-bold text-foreground mb-1">Event Dates</h5>
                   <p className="text-muted-foreground font-light text-sm leading-relaxed">
-                    November 18–20, 2026<br/>
+                    April 13–15, 2027<br/>
                     Doors open daily at 8:00 AM for registration and networking.
                   </p>
                 </div>

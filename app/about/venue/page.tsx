@@ -31,10 +31,10 @@ export default function Page() {
     );
   }
 
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6967778460807!2d103.9879672!3d1.3585608999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3c936a9124bf%3A0x74a0170f1cc50445!2sCrowne%20Plaza%20Changi%20Airport%20by%20IHG!5e0!3m2!1sen!2sin!4v1779295382266!5m2!1sen!2sin";
-  const venueName = "Crowne Plaza Changi Airport";
-  const venueCity = "Singapore";
-  const venueAddress = "75 Airport Blvd., #01-01, Singapore 819664";
+  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77979.80009413049!2d4.9039604!3d52.354665649999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam%2C%20Netherlands!5e0!3m2!1sen!2sin!4v1783156908555!5m2!1sen!2sin";
+  const venueName = "Amsterdam, Netherlands";
+  const venueCity = "Amsterdam";
+  const venueAddress = "Amsterdam, Netherlands";
 
   return (
     <main className="flex flex-col min-h-screen bg-background">

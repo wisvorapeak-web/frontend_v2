@@ -13,8 +13,8 @@ export default function Hero() {
   const [content, setContent] = useState({
     title: "Ascendix Summit: Food, Agri-Tech & Animal Science",
     subtitle: "Led by the future of sustainable food systems and agri-innovation.",
-    dateText: "November 18-20, 2026",
-    locationText: "Singapore",
+    dateText: "April 13-15, 2027",
+    locationText: "Amsterdam, Netherlands",
     bgImage: "/hero.png"
   });
 

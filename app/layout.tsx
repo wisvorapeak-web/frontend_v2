@@ -15,8 +15,8 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: "Ascendix Summit: Food, AgriTech & Animal Science (ASFAA-2026)",
-  description: "A premier global platform uniting leaders, innovators, researchers, policymakers, and investors across the food, agriculture, and animal science ecosystems in Singapore.",
-  keywords: ["ASFAA-2026", "Ascendix Summit", "Food Tech", "AgriTech", "Animal Science", "Precision Agriculture", "Alternative Proteins", "Smart Farming", "Singapore Event"],
+  description: "A premier global platform uniting leaders, innovators, researchers, policymakers, and investors across the food, agriculture, and animal science ecosystems in Amsterdam, Netherlands.",
+  keywords: ["ASFAA-2026", "Ascendix Summit", "Food Tech", "AgriTech", "Animal Science", "Precision Agriculture", "Alternative Proteins", "Smart Farming", "Amsterdam Event"],
   authors: [{ name: "AnandVerse Web Services", url: "https://anandverse.space" }],
   creator: "AnandVerse Web Services",
   openGraph: {
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://ascendix.com",
     title: "Ascendix Summit: Food, AgriTech & Animal Science",
-    description: "Uniting global leaders across food, agriculture, and animal science ecosystems in Singapore.",
+    description: "Uniting global leaders across food, agriculture, and animal science ecosystems in Amsterdam, Netherlands.",
     siteName: "ASFAA-2026",
   },
   twitter: {
     card: "summary_large_image",
     title: "ASFAA-2026: Food, AgriTech & Animal Science",
-    description: "Join global innovators shaping sustainable food systems and agri-innovation in Singapore. Nov 18-20, 2026.",
+    description: "Join global innovators shaping sustainable food systems and agri-innovation in Amsterdam, Netherlands. April 13-15, 2027.",
   },
   robots: {
     index: true,

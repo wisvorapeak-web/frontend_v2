@@ -12,7 +12,7 @@ export default function FAQPage() {
   const faqs = [
     {
       q: "What are the dates for ASFAA-2026?",
-      a: "ASFAA-2026 will take place from November 18th to November 20th, 2026 at the Crowne Plaza Changi Airport in Singapore."
+      a: "ASFAA-2026 will take place from April 13th to April 15th, 2027 in Amsterdam, Netherlands."
     },
     {
       q: "Who should attend the summit?",

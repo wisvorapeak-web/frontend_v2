@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
             <p className="mb-6">
               If you have any questions about this privacy policy or our privacy practices, please contact us in the following ways:<br/>
               Email address: privacy@ascendixsummits.com<br/>
-              Postal address: Crowne Plaza Changi Airport, Singapore
+              Postal address: Amsterdam, Netherlands
             </p>
           </div>
         </div>

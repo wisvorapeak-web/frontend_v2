@@ -14,7 +14,7 @@ export default function About() {
 
 Ascendix Summit: Food, AgriTech & Animal Science (ASFAA-2026) is a premier global platform uniting leaders, innovators, researchers, policymakers, and investors across the food, agriculture, and animal science ecosystems.
 
-Scheduled for November 18–20, 2026 in Singapore, the summit will spotlight cutting-edge advancements shaping the future of sustainable food systems and agri-innovation.`
+Scheduled for April 13–15, 2027 in Amsterdam, Netherlands, the summit will spotlight cutting-edge advancements shaping the future of sustainable food systems and agri-innovation.`
   });
 
   useEffect(() => {
@@ -98,11 +98,11 @@ Scheduled for November 18–20, 2026 in Singapore, the summit will spotlight cut
               </span>
 
               <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-semibold text-white/90 border border-white/20">
-                November 18-20, 2026
+                April 13-15, 2027
               </span>
 
               <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-semibold text-white/90 border border-white/20">
-                Singapore
+                Amsterdam, Netherlands
               </span>
             </div>
 

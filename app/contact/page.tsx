@@ -59,7 +59,7 @@ export default function ContactPage() {
                     <p className="text-muted-foreground font-light">
                       Crowne Plaza Changi Airport by IHG<br />
                       75 Airport Blvd.<br />
-                      Singapore 819664
+                      Amsterdam, Netherlands
                     </p>
                   </div>
                 </div>

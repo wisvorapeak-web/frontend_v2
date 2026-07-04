@@ -45,7 +45,7 @@ export default function TermsConditionsPage() {
 
             <h2 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">5. Governing Law</h2>
             <p className="mb-6">
-              These terms and conditions are governed by the laws of Singapore. Any disputes arising out of these terms shall be subject to the exclusive jurisdiction of the courts of Singapore.
+              These terms and conditions are governed by the laws of the Netherlands. Any disputes arising out of these terms shall be subject to the exclusive jurisdiction of the courts of the Netherlands.
             </p>
           </div>
         </div>

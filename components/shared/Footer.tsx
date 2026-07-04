@@ -68,7 +68,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-ascendix flex-shrink-0 mt-0.5" />
-                <span className="text-white/60 text-sm font-light">Crowne Plaza Changi Airport, <br />Singapore</span>
+                <span className="text-white/60 text-sm font-light">Amsterdam, <br />Netherlands</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-ascendix flex-shrink-0" />

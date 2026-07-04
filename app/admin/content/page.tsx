@@ -201,11 +201,11 @@ export default function Page() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-bold text-muted-foreground uppercase tracking-widest mb-2">Event Dates Text</label>
-                  <input type="text" value={heroForm.dateText} onChange={e => setHeroForm({...heroForm, dateText: e.target.value})} className="w-full bg-background border border-border rounded-md px-4 py-2 text-foreground focus:border-primary/50 outline-none" placeholder="November 18-20, 2026" />
+                  <input type="text" value={heroForm.dateText} onChange={e => setHeroForm({...heroForm, dateText: e.target.value})} className="w-full bg-background border border-border rounded-md px-4 py-2 text-foreground focus:border-primary/50 outline-none" placeholder="April 13-15, 2027" />
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-muted-foreground uppercase tracking-widest mb-2">Location Text</label>
-                  <input type="text" value={heroForm.locationText} onChange={e => setHeroForm({...heroForm, locationText: e.target.value})} className="w-full bg-background border border-border rounded-md px-4 py-2 text-foreground focus:border-primary/50 outline-none" placeholder="Singapore" />
+                  <input type="text" value={heroForm.locationText} onChange={e => setHeroForm({...heroForm, locationText: e.target.value})} className="w-full bg-background border border-border rounded-md px-4 py-2 text-foreground focus:border-primary/50 outline-none" placeholder="Amsterdam, Netherlands" />
                 </div>
               </div>
               <div>
