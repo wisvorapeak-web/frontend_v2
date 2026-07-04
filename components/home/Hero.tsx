@@ -34,7 +34,7 @@ export default function Hero() {
     };
     loadContent();
 
-    const targetDate = new Date("2026-11-18T00:00:00").getTime();
+    const targetDate = new Date("2027-04-13T00:00:00").getTime();
     
     const interval = setInterval(() => {
       const now = new Date().getTime();
